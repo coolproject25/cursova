@@ -5,73 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            font-family: Arial,;
-            margin: 0;
-            background-color: #f8f8f8;
-        }
-        header {
-            background-color: grey;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
-        }
-        .container {
-            padding: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .product {
-            background: white;
-            border-radius: 10px;
-            padding: 15px;
-            margin: 10px;
-            width: 200px;
-            text-align: center;
-        }
-        .product img {
-            width: 100%;
-            border-radius: 10px;
-        }
-        .price {
-            color: green;
-            font-weight: bold;
-        }
-        button {
-            background-color: grey;
-            border: none;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: grey;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #333;
-            color: white;         
-        }
-        .height {height: 75vh;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+}
 
+header {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+.height {height: 80vh;
+}
+.size {font-size: 12px;
+       text-align:left;
+}
+.znizka {text-align:right;
+color:red; 
+font-size:20px;
+}
+        h1 {font-size: 50px;
+            color: white;
+            font-family:monospace;
+            text-align: center;
+        }
+        .N1 {color:gold;
+             font-size: 31px;
+        }
+
+        .N2 {color: silver;
+             font-size: 28px;
+        }
+        .N3 {color: #CD7F32;
+             font-size: 25px;
+        }
+        h2 {font-size: 50px;
+text-align: center;
         }
     </style>
 </head>
 <body>
 <header>
-<h1>Магазин телефонів </h1>
+<h1>Магазин телефонів</h1>
 <p>Найкращі телефони міста</p>
 </header>
 <nav>
@@ -79,25 +112,32 @@
 <a href="index5.html">Каталог</a>
 <a href="index6.html">Контакти</a>
 </nav>
+<h2>ХІТИ ЦЬОГО МІСЯЦЯ🔥🔥</h2> 
 <div class="height">
 <div class="container">
 <div class="product">
-<img src="" alt="">
-<h3></h3>
-<p class="price"></p>
-<button>Купити</button>
+    <h4 class="N3">НОМЕР 3</h4>
+<img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-1.jpg" alt="">
+<h3>iPhone 16 Pro Max</h3>
+<p class="price, size"><s>67999 грн</s></p>
+<p class="znizka">-12%</p>
+<p class="price">59999 грн</p>
+<form action="index4.1.html"><button>Купити</button></form>
 </div>
 <div class="product">
-<img src="" alt="">
-<h3></h3>
-<p class="price"></p>
-<button>Купити</button>
-</div>
-<div class="product">
-<img src="" alt="">
-<h3></h3>
-<p class="price"></p>
-<button>Купити</button>
+    <h4 class="N1">НОМЕР 1</h4>
+<img src="https://360view.3dmodels.org/zoom/Nokia/Nokia_3310_Dark_Blue_1000_0001.jpg" alt="">
+<h3>Nokia 3310</h3>
+<p class="price">14999 грн</p>
+<form action="index4.20.html"><button>Купити</button></form>
+</div><div class="product">
+    <h4 class="N2">НОМЕР 2</h4>
+<img src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-pro-xl-1.jpg" alt="">
+<h3>Google Pixel 9 Pro</h3>
+<p class="price, size"><s>45999 грн</s></p>
+<p class="znizka">-13%</p>
+<p class="price">39999 грн</p>
+<form action="index4.8.html"><button>Купити</button></form>
 </div>
 </div></div>
 <footer>
